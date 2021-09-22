@@ -1,0 +1,158 @@
+body {
+    background-color: aqua;
+    margin: 0;
+}
+
+main{
+    background-image: url("../IMG/fondo.jpg");
+    background-size: contain;
+}
+
+li {
+    font-family: Georgia;
+}
+
+h1 {
+    text-align: center;
+    color: orangered;
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+}
+
+h2 {
+    color: red;
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+}
+
+p {
+    font-size: 25px;
+}
+
+img {
+    width: 70%;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    background-color: lightblue;
+    overflow: auto;
+    margin-top: 20px;
+}
+
+nav p {
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin-top: 4%;
+}
+
+nav div {
+    width: 50%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+section {
+    float: left;
+    overflow: auto;
+    width: 40%;
+    text-align: center;
+    background-color: yellow;
+    box-sizing: border-box;
+    height: 600px;
+    margin-left: 10%;
+    border-radius: 100px 0 0 100px;
+}
+
+aside {
+    /*float: left;*/
+    overflow: auto;
+    width: 40%;
+    background-color: yellow;
+    text-align: center;
+    box-sizing: border-box;
+    height: 600px;
+    border-radius: 0 100px 100px 0;
+}
+
+aside div#video iframe {
+    width: 500px;
+}
+
+footer {
+    background-color: lightblue;
+    clear: both;
+    text-align: center;
+}
+
+footer li {
+    font-size: 40px;
+    
+}
+
+footer h2{
+    margin: unset;
+}
+
+body div a#Wicono {
+    background-color: #00bb2d;
+    color: white;
+    position: fixed;
+    font-size: 39px;
+    padding: 8px;
+    top: 75%;
+    right: 1%;
+    text-align: center;
+    line-height: 44px;
+    width: 41px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 6px rgb(0 0 0 / 40%);;
+}
+
+audio:hover {
+    background-color: red;
+}
+
+h1:hover {
+    background-color: yellow;
+}
+
+h2:hover {
+    background-color: blue;
+}
+
+p:hover {
+    background-color: chartreuse;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    background-color: rgb(255, 255, 255);
+    color: red;
+}
+
+body div a#Wicono:hover {
+    opacity: 0.8;
+    outline: 0;
+    box-shadow: none;
+    color: white;
+}
+
+section:hover {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: -5px 10px 8px #888888;
+}
+
+aside:hover {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 8px #888888;
+}
